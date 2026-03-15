@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geist.variable} antialiased overflow-x-hidden`}>
+      <body className={`${geist.variable} antialiased`}>
         <Navbar />
         <main>{children}</main>
         <Footer />
