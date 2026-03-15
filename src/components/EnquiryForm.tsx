@@ -132,7 +132,7 @@ export default function EnquiryForm() {
 
       {/* Slide-in panel */}
       <div
-        className={`fixed right-0 top-1/2 -translate-y-1/2 z-50 w-80 bg-white rounded-l-2xl shadow-2xl transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed right-0 top-1/2 -translate-y-1/2 z-50 w-80 max-w-[calc(100vw-1rem)] bg-white rounded-l-2xl shadow-2xl transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         role="dialog"
         aria-modal="true"
         aria-label="Enquiry Form"
