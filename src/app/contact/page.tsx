@@ -58,10 +58,10 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-navy pt-28 pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-          <p className="text-xs font-semibold text-gold uppercase tracking-widest mb-4">Contact Us</p>
+          <p className="text-xs font-semibold text-blue uppercase tracking-widest mb-4">Contact Us</p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
             We&apos;re Here to Help<br />
-            <span className="text-gold-gradient">You Take the Next Step</span>
+            <span className="text-blue-gradient">You Take the Next Step</span>
           </h1>
           <p className="text-lg text-white/65 max-w-xl mx-auto leading-relaxed mb-10">
             Whether you have questions about admissions, programmes, or campus life — our team is ready to assist.
@@ -84,7 +84,7 @@ export default function ContactPage() {
               href="https://admissions.iilm.edu"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-gold text-navy font-semibold rounded-full hover:bg-gold-light transition-all"
+              className="px-6 py-3 bg-maroon text-white font-semibold rounded-full hover:bg-maroon-light transition-all"
             >
               Apply Online →
             </Link>
@@ -96,7 +96,7 @@ export default function ContactPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-14">
-            <p className="text-xs font-semibold text-gold uppercase tracking-widest mb-3">Our Locations</p>
+            <p className="text-xs font-semibold text-blue uppercase tracking-widest mb-3">Our Locations</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-navy">Find Your Nearest Campus</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -119,14 +119,14 @@ export default function ContactPage() {
                   </div>
 
                   <div className="pt-4 border-t border-slate-100 space-y-1">
-                    <a href={`mailto:${campus.email}`} className="flex items-center gap-2 text-sm text-gold hover:text-navy transition-colors">
+                    <a href={`mailto:${campus.email}`} className="flex items-center gap-2 text-sm text-blue hover:text-navy transition-colors">
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
                       {campus.email}
                     </a>
                     {campus.email2 && (
-                      <a href={`mailto:${campus.email2}`} className="flex items-center gap-2 text-sm text-gold hover:text-navy transition-colors">
+                      <a href={`mailto:${campus.email2}`} className="flex items-center gap-2 text-sm text-blue hover:text-navy transition-colors">
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
@@ -153,7 +153,7 @@ export default function ContactPage() {
 
           {/* Additional campuses */}
           <div className="mt-8 p-6 rounded-2xl bg-slate border border-slate-200">
-            <p className="text-xs font-semibold text-gold uppercase tracking-widest mb-4">Additional Campuses</p>
+            <p className="text-xs font-semibold text-blue uppercase tracking-widest mb-4">Additional Campuses</p>
             <div className="grid sm:grid-cols-2 gap-4">
               {additionalCampuses.map((c) => (
                 <div key={c.name} className="flex items-center gap-3">
@@ -196,8 +196,8 @@ export default function ContactPage() {
 
             {/* Apply online */}
             <div className="bg-navy rounded-2xl p-8">
-              <div className="w-12 h-12 rounded-2xl bg-gold/20 flex items-center justify-center mb-5">
-                <svg className="w-7 h-7 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-12 h-12 rounded-2xl bg-maroon/20 flex items-center justify-center mb-5">
+                <svg className="w-7 h-7 text-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
@@ -209,7 +209,7 @@ export default function ContactPage() {
                 href="https://admissions.iilm.edu"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-3 bg-gold text-navy font-semibold rounded-full hover:bg-gold-light transition-all text-sm"
+                className="inline-block px-6 py-3 bg-maroon text-white font-semibold rounded-full hover:bg-maroon-light transition-all text-sm"
               >
                 Go to Application Portal →
               </Link>

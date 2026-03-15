@@ -89,7 +89,7 @@ export default function Footer() {
               className="h-10 w-auto object-contain mb-5"
             />
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Education for the Age of AI Intelligence. Three campuses across Delhi NCR — shaping leaders since 1993.
+              Education for the Age of AI Intelligence. Five campuses across India — shaping leaders since 1993.
             </p>
             <div className="flex items-center gap-3 mb-6">
               {socialLinks.map((s) => (
@@ -99,7 +99,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-white/70 hover:bg-gold hover:text-navy transition-all"
+                  className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-white/70 hover:bg-maroon hover:text-white transition-all"
                 >
                   {s.icon}
                 </a>
@@ -120,7 +120,7 @@ export default function Footer() {
 
           {/* Programs */}
           <div>
-            <h3 className="text-sm font-semibold text-gold uppercase tracking-widest mb-5">Programs</h3>
+            <h3 className="text-sm font-semibold text-blue uppercase tracking-widest mb-5">Programs</h3>
             <ul className="space-y-2.5">
               {footerLinks.programs.map((link) => (
                 <li key={link.label}>
@@ -137,7 +137,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-semibold text-gold uppercase tracking-widest mb-5">Quick Links</h3>
+            <h3 className="text-sm font-semibold text-blue uppercase tracking-widest mb-5">Quick Links</h3>
             <ul className="space-y-2.5">
               {footerLinks.quickLinks.map((link) => (
                 <li key={link.label}>
@@ -154,33 +154,37 @@ export default function Footer() {
 
           {/* Campuses */}
           <div>
-            <h3 className="text-sm font-semibold text-gold uppercase tracking-widest mb-5">Campuses</h3>
-            <div className="space-y-5 text-sm text-white/60">
+            <h3 className="text-sm font-semibold text-blue uppercase tracking-widest mb-5">Campuses</h3>
+            <div className="space-y-4 text-sm text-white/60">
               <div>
-                <p className="font-semibold text-white/80 mb-1">IILM Gurugram</p>
-                <p>Plot No. 69-71, Golf Course Road, Sector 53, Gurugram, Haryana</p>
-                <a href="mailto:admissions.iilmu@iilm.edu" className="text-gold/80 hover:text-gold">
-                  admissions.iilmu@iilm.edu
-                </a>
+                <p className="font-semibold text-white/80 mb-0.5">IILM Gurugram</p>
+                <p className="text-xs">Plot 69-71, Golf Course Road, Sector 53, Gurugram</p>
+                <a href="mailto:admissions.iilmu@iilm.edu" className="text-xs text-maroon/80 hover:text-blue">admissions.iilmu@iilm.edu</a>
               </div>
               <div>
-                <p className="font-semibold text-white/80 mb-1">IILM Greater Noida</p>
-                <p>Plot No. 16-18, Knowledge Park II, Greater Noida, UP – 201306</p>
-                <a href="mailto:admissions.gn@iilm.edu" className="text-gold/80 hover:text-gold">
-                  admissions.gn@iilm.edu
-                </a>
+                <p className="font-semibold text-white/80 mb-0.5">IILM Greater Noida</p>
+                <p className="text-xs">Plot 16-18, Knowledge Park II, Greater Noida, UP</p>
+                <a href="mailto:admissions.gn@iilm.edu" className="text-xs text-maroon/80 hover:text-blue">admissions.gn@iilm.edu</a>
               </div>
               <div>
-                <p className="font-semibold text-white/80 mb-1">IILM Lodhi Road, Delhi</p>
-                <p>3, Lodhi Institutional Area, New Delhi – 110003</p>
-                <a href="mailto:info.ubs@iilm.edu" className="text-gold/80 hover:text-gold">
-                  info.ubs@iilm.edu
-                </a>
+                <p className="font-semibold text-white/80 mb-0.5">IILM Lodhi Road, Delhi</p>
+                <p className="text-xs">3, Lodhi Institutional Area, New Delhi – 110003</p>
+                <a href="mailto:info.ubs@iilm.edu" className="text-xs text-maroon/80 hover:text-blue">info.ubs@iilm.edu</a>
+              </div>
+              <div>
+                <p className="font-semibold text-white/80 mb-0.5">IILM Lucknow</p>
+                <p className="text-xs">1, Viraj Khand, Gomti Nagar, Lucknow – 226010</p>
+                <a href="mailto:adm@iilmlko.ac.in" className="text-xs text-maroon/80 hover:text-blue">adm@iilmlko.ac.in</a>
+              </div>
+              <div>
+                <p className="font-semibold text-white/80 mb-0.5">IILM Jaipur</p>
+                <p className="text-xs">Pratap Nagar, Sanganer, Jaipur – 302033</p>
+                <a href="mailto:admissionjaipur@iilm.ac.in" className="text-xs text-maroon/80 hover:text-blue">admissionjaipur@iilm.ac.in</a>
               </div>
             </div>
 
             <div className="mt-5 pt-5 border-t border-white/10">
-              <h4 className="text-xs font-semibold text-gold/80 uppercase tracking-wider mb-3">Alumni Networks</h4>
+              <h4 className="text-xs font-semibold text-maroon/80 uppercase tracking-wider mb-3">Alumni Networks</h4>
               <div className="space-y-1.5">
                 {footerLinks.alumni.map((link) => (
                   <a
